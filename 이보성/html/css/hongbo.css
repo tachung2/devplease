@@ -1,12 +1,27 @@
+a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    box-sizing: border-box;
+}
+
+
+
 html{
     text-size-adjust: 100%;
+    line-height: 1.15;
+    text-size-adjust: none;
+    font-size: 16px;
 }
 div{
     display: block;
 }
 li{
     color: rgb(130,130,130);
-    font-size: 0.8rem;
+    font-size: 0.7rem;
     line-height: 1.5;
     text-align: center;
     padding-right: 10px;
@@ -127,10 +142,11 @@ li{
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-    color: black;
+    color: rgb(0, 0, 0);
     font-size: 1.3rem;
     font-weight: bold;
     text-align: left;
+
 }
 .image-subtext{
     width: auto;
@@ -146,5 +162,6 @@ li{
     height: 10px;
     display: block;
     background-color: rgb(130, 130, 130);
-    margin: 0px 15px;
+    margin: 0px 10px;
 }
+
