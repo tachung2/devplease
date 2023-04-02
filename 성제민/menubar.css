@@ -1,0 +1,34 @@
+.menu_container {
+    display: flex;
+    position: sticky;
+    flex-direction: column;
+    margin: 0 60px auto;
+    height: 200px;
+}
+
+.logo_container {
+    display: flex;
+}
+
+.logo_container>img {}
+
+.menubar_container {}
+
+.user_container {}
+
+ul {
+    list-style: none;
+}
+
+li {
+    float: left
+}
+
+.option {
+    margin: 0 10px auto;
+}
+
+input {
+    height: 25px;
+    border-radius: 20px;
+}
