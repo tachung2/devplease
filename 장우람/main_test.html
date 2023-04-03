@@ -6,17 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="main_test.css" />
     <title>Document</title>
-    <script>
-      const boxes = document.querySelectorAll(".su_kyung_ko_box");
-      boxes.forEach((su_kyung_ko_box) => {
-        su_kyung_ko_box.addEventListener("click", function () {
-          boxes.forEach((su_kyung_ko_box) =>
-            su_kyung_ko_box.classList.remove("active")
-          );
-          this.classList.add("active");
-        });
-      });
-    </script>
   </head>
   <body>
     <main>
