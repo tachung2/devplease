@@ -1,18 +1,28 @@
+footer{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    box-sizing: border-box;
+}
 
-img{
+
+.Layoutcamera div img{
     width: 100%;
     height: 100%;
     object-fit: cover;
     -webkit-user-drag: none;
 }
-img{
+.under_banner img{
     border-style: none;
 }
-span{
+.under_banner span{
     font-size: 0.9rem;
     margin-right: 15px;
 }
-p{
+.under_banner p{
     font-size: 0.9rem;
     margin: 15px 0px 5px;
 }
@@ -115,9 +125,9 @@ p{
     flex: 1 1 0%;
 
 }
-.logo{
-    width: 230px;
-    height: 36px;
+.logo-115{
+    width: 250px;
+    height: 60px;
     object-fit: cover;
     -webkit-user-drag: none;
 
@@ -133,10 +143,10 @@ p{
     font-weight: bold;
 }
 
-h4{
+.telephone h4{
     font-size: 1.05rem;
     margin-bottom: 5px;
 }
-h3{
+.telephone h3{
     font-size: 1.2rem;
 }
