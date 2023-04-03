@@ -143,7 +143,7 @@
 .ky_text {
   position: absolute;
   top: -400%;
-  left: 70%;
+  left: 10%;
   width: 200px;
   height: 200px;
   color: white;
@@ -155,7 +155,7 @@
 }
 
 .su_kyung_ko_box:hover {
-  flex: 8;
+  flex: 10;
 }
 .su_kyung_ko_box:hover .sudo_text {
   visibility: visible;
@@ -168,4 +168,24 @@
 .su_kyung_ko_box:hover .ky_text {
   visibility: visible;
   opacity: 1;
+}
+
+.su_kyung_ko_container:hover .title_container,
+.su_kyung_ko_container:hover img {
+  opacity: 0;
+}
+
+.su_kyung_ko_container:hover :hover .title_container,
+.su_kyung_ko_container:hover :hover img {
+  opacity: 1;
+}
+
+.su_kyung_ko_container:hover :hover #sudo_icon {
+  left: 10%;
+}
+.su_kyung_ko_container:hover :hover #ko_icon {
+  left: 41%;
+}
+.su_kyung_ko_container:hover :hover #kyung_icon {
+  left: 73%;
 }
