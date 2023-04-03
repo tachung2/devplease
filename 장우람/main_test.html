@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main_test.css" />
+    <title>Document</title>
+    <script>
+      const boxes = document.querySelectorAll(".su_kyung_ko_box");
+      boxes.forEach((su_kyung_ko_box) => {
+        su_kyung_ko_box.addEventListener("click", function () {
+          boxes.forEach((su_kyung_ko_box) =>
+            su_kyung_ko_box.classList.remove("active")
+          );
+          this.classList.add("active");
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <main>
+      <div class="su_kyung_ko_container">
+        <article class="su_container su_kyung_ko_box">
+          <div class="title_container">
+            <h1>수도권 출발</h1>
+          </div>
+          <div class="blink_01"></div>
+          <div class="blink_02_su"></div>
+          <div class="lane_su">
+            <div>
+              <img src="image\수도권 (300 × 300px).png" alt="" id="sudo_icon" />
+            </div>
+            <div class="sudo_text">
+              <ul id="1-2days">
+                1박2일 코스
+              </ul>
+              <ul id="d-day">
+                당일 코스
+              </ul>
+              <ul id="jeonbuk">
+                전북 투어 패스
+              </ul>
+              <ul id="saeman">
+                새만금 코스
+              </ul>
+            </div>
+          </div>
+          <div class="blink_02_su"></div>
+          <div class="blink_01"></div>
+        </article>
+
+        <article class="ko_container su_kyung_ko_box">
+          <div class="title_container">
+            <h1>코레일 연계</h1>
+          </div>
+          <div class="blink_01"></div>
+          <div class="blink_02_ko"></div>
+          <div class="lane_ko">
+            <div>
+              <img src="image\코레일 (300 × 300px).png" alt="" id="ko_icon" />
+            </div>
+            <div class="ko_text">
+              <ul id="1-2days">
+                1박2일 코스
+              </ul>
+              <ul id="d-day">
+                당일 코스
+              </ul>
+              <ul id="jeonbuk">
+                전북 투어 패스
+              </ul>
+              <ul id="saeman">
+                새만금 코스
+              </ul>
+            </div>
+          </div>
+          <div class="blink_02_ko"></div>
+          <div class="blink_01"></div>
+        </article>
+
+        <article class="kyung_container su_kyung_ko_box">
+          <div class="title_container">
+            <h1>경상권 출발</h1>
+          </div>
+          <div class="blink_01"></div>
+          <div class="blink_02_ky"></div>
+          <div class="lane_kyung">
+            <div>
+              <img
+                src="image\경상권 (300 × 300px).png"
+                alt=""
+                id="kyung_icon"
+              />
+            </div>
+            <div class="ky_text">
+              <ul id="1-2days">
+                1박2일 코스
+              </ul>
+              <ul id="d-day">
+                당일 코스
+              </ul>
+              <ul id="jeonbuk">
+                전북 투어 패스
+              </ul>
+              <ul id="saeman">
+                새만금 코스
+              </ul>
+            </div>
+          </div>
+          <div class="blink_02_ky"></div>
+          <div class="blink_01"></div>
+        </article>
+      </div>
+    </main>
+  </body>
+</html>
