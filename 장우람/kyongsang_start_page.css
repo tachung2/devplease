@@ -1,5 +1,5 @@
 main {
-  background-color: lightsteelblue;
+  background-color: peachpuff;
   height: auto;
   width: 70%;
   margin: auto;
@@ -7,11 +7,11 @@ main {
   padding: 20px;
 }
 
-#sudogwon_image {
+#kyongsang_image {
   margin: auto;
   width: 100%;
 }
-#lane_sudogwon_1-2days {
+#lane_kyongsang_1-2days {
   background-color: white;
   border: 3px solid gray;
   height: auto;
@@ -22,7 +22,7 @@ main {
 
 #blue_font {
   margin-left: 10px;
-  color: skyblue;
+  color: darkslateblue;
 }
 #green_font {
   margin: auto;
@@ -50,8 +50,8 @@ main {
   width: auto;
 }
 
-.lane_sudogwon_01_btn {
-  background-color: skyblue;
+.lane_kyongsang_01_btn {
+  background-color: darkslateblue;
   border: 0px;
   border-radius: 5px;
   font-size: 15px;
@@ -61,8 +61,8 @@ main {
   cursor: pointer;
 }
 
-.sudogwon_1-2days_inside_container {
-  border: 3px solid skyblue;
+.kyongsang_1-2days_inside_container {
+  border: 3px solid darkslateblue;
   height: auto;
   width: 95%;
   margin-left: auto;
@@ -73,41 +73,41 @@ main {
 }
 
 /* --------menubar---------
-
-.menu_container {
-  display: flex;
-  position: sticky;
-  flex-direction: column;
-  margin: 0 60px auto;
-  height: 200px;
-}
-
-.logo_container {
-  display: flex;
-}
-
-.logo_container > img {
-}
-
-.menubar_container {
-}
-
-.user_container {
-}
-
-ul {
-  list-style: none;
-}
-
-li {
-  float: left;
-}
-
-.option {
-  margin: 0 10px auto;
-}
-
-input {
-  height: 25px;
-  border-radius: 20px;
-} */
+  
+  .menu_container {
+    display: flex;
+    position: sticky;
+    flex-direction: column;
+    margin: 0 60px auto;
+    height: 200px;
+  }
+  
+  .logo_container {
+    display: flex;
+  }
+  
+  .logo_container > img {
+  }
+  
+  .menubar_container {
+  }
+  
+  .user_container {
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  .option {
+    margin: 0 10px auto;
+  }
+  
+  input {
+    height: 25px;
+    border-radius: 20px;
+  } */
