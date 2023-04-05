@@ -40,6 +40,14 @@
     z-index: 0;
 }
 
+.box_block .box_content {
+    position: absolute;
+    color: white;
+    z-index: 2;
+    transform: translate(0, -100%);
+    font-size: 20px;
+}
+
 .box_cover {
     position: absolute;
     top: 0;
