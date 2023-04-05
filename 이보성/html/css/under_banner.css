@@ -1,0 +1,150 @@
+footer{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    box-sizing: border-box;
+}
+
+
+.Layoutcamera div img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    -webkit-user-drag: none;
+}
+.under_banner img{
+    border-style: none;
+}
+.under_banner span{
+    font-size: 0.9rem;
+    margin-right: 15px;
+}
+.under_banner p{
+    font-size: 0.9rem;
+    margin: 15px 0px 5px;
+}
+
+.under_banner{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.partner{
+    height: 60px;
+    background-color: skyblue;
+    display: flex;
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    align-items: center;
+    padding: 0px 15%;
+}
+
+.family_site{
+    color: white;
+    font-size: 1.05rem;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+.LayoutStyle{
+    flex: 1 1 0%;
+    padding: 0px 3%;
+    overflow: hidden;
+}
+.LayoutSyle_1:not(.vertical)
+{
+    width: 100%;
+    height: 100%;
+}
+.LayoutSyle_1{
+    position: relative;
+    overflow: hidden;
+}
+
+.Layoutcamera{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 1;
+    white-space: nowrap;
+    will-change: transform;
+    display: flex;
+    flex-direction: row;
+
+}
+.Layoutcamera>*{
+    display: inline-block;
+    white-space: normal;
+    vertical-align: top;
+}
+.Layoutcamera>*{
+    flex-shrink: 0;
+}
+.Layoutcamera div{
+    width: 190px;
+    height: 35px;
+    background-color: aliceblue;
+    margin-right: 10px;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    color: rgb(35, 35, 35);
+    cursor: pointer;
+    overflow: hidden;
+
+}
+.Layoutcamera.animated{
+    transition: 0.5s ease-out;
+}
+
+
+.banner_container{
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    padding: 30px 15%;
+}
+
+.logo_c{
+    display: flex;
+    align-items: flex-start;
+    -webkit-box-pack: center;
+    justify-content: center;
+    flex-direction: column;
+    flex: 1 1 0%;
+
+}
+.logo-115{
+    width: 250px;
+    height: 60px;
+    object-fit: cover;
+    -webkit-user-drag: none;
+
+}
+.fotter-contents{
+    padding: 10px 0px 0px;
+    color: gray;
+
+}
+
+.telephone{
+    color: black;
+    font-weight: bold;
+}
+
+.telephone h4{
+    font-size: 1.05rem;
+    margin-bottom: 5px;
+}
+.telephone h3{
+    font-size: 1.2rem;
+}

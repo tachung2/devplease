@@ -1,0 +1,228 @@
+/* 
+{ font-family: 'Spoqa Han Sans Neo', 'sans-serif'; }
+{ font-family: 'NanumSquare', sans-serif; } 
+*/
+
+body{
+    margin: 0;
+    font-family: 'Spoqa Han Sans Neo', 'sans-serif';
+}
+
+img{
+    object-fit: cover;
+}
+
+
+
+
+/* fonts */
+
+@font-face {
+    font-family: 'Spoqa Han Sans Neo';
+    font-weight: 700;
+    src: local('Spoqa Han Sans'),
+    url('../../fonts/SpoqaHanSansNeo_TTF_subset/SpoqaHanSansNeo-Bold.woff2')format('woff2'),
+    url('../../fonts/SpoqaHanSansNeo_TTF_subset/SpoqaHanSansNeo-Bold.woff')format('woff'),
+    url(../../fonts/SpoqaHanSansNeo_TTF_subset/SpoqaHanSansNeo-Bold.ttf)format('truetype');
+}
+
+@font-face {
+    font-family: 'Spoqa Han Sans Neo';
+    src: local('Spoqa Han Sans'),
+    url(../../fonts/SpoqaHanSansNeo_TTF_subset/SpoqaHanSansNeo-Regular.woff2)format('woff2'),
+    url(../../fonts/SpoqaHanSansNeo_TTF_subset/SpoqaHanSansNeo-Regular.woff)format('woff'),
+    url(../../fonts/SpoqaHanSansNeo_TTF_subset/SpoqaHanSansNeo-Regular.ttf)format('truetype');
+}
+
+@font-face {
+    font-family: 'NanumSquare';
+    src: local('NanumSquare'),
+    url(../../fonts/NanumSquare/NanumSquareAcEB.woff2)format('woff2'),
+    url(../../fonts/NanumSquare/NanumSquareAcEB.woff)format('woff'),
+    url(../../fonts/NanumSquare/NanumSquareAcEB.ttf)format('truetype');
+}
+
+@font-face {
+    font-family: 'NanumSquare';
+    src: local('NanumSquare'),
+    url(../../fonts/NanumSquare/NanumSquareAcB.woff2)format('woff2'),
+    url(../../fonts/NanumSquare/NanumSquareAcB.woff)format('woff'),
+    url(../../fonts/NanumSquare/NanumSquareAcB.ttf)format('truetype');
+}
+
+@font-face {
+    font-family: 'NanumSquare';
+    src: local('NanumSquare'),
+    url(../../fonts/NanumSquare/NanumSquareAcR.woff2)format('woff2'),
+    url(../../fonts/NanumSquare/NanumSquareAcR.woff)format('woff'),
+    url(../../fonts/NanumSquare/NanumSquareAcR.ttf)format('truetype');
+}
+
+
+
+/* banner */
+.banner_viewport{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    /* 높이가 창 화면에 꽉 차도록 */
+    height: 100%;
+}
+
+.banner_item{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner_image, .op_image{
+    position: relative;
+    width: 400px;
+    filter:brightness(50%);
+}
+
+
+.banner_title_container{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.banner_title{
+    font-family: 'NanumSquare', sans-serif;
+    font-weight: bolder;
+    font-size: xx-large;
+    color: white;
+}
+
+.sub{
+    font-weight: bold;
+    font-size: larger;
+}
+/* 
+.pag{
+    
+} */
+
+
+/* all */
+.title_container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.titles{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+
+.title{
+    font-family: 'NanumSquare', 'sans-serif';
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.sub{
+    font-weight: normal;
+    font-size: medium;
+}
+
+.min_title{
+    font-weight: bold;
+}
+
+.more{
+    font-weight: bold;
+    font-size: small;
+}
+
+
+/* recommand */
+
+.recommend_container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.recommend_item{
+    float: left;
+    flex-direction: column;
+
+}
+
+.recommend_img{
+    width: 300px;
+}
+
+
+
+
+/* linked */
+.linked{
+    display: flex;
+    flex-direction: row;
+    clear: both;
+}
+.linked_item{
+    display: flex;
+    text-align: center;
+}
+.from_seoul{
+    justify-content: left;
+}
+.with_korail{
+    justify-content: center;
+}
+.from_gyeongsang{
+    justify-content: right;
+}
+.linked_image{
+    position: relative;
+}
+.linked_title{
+    position: absolute;
+    color: white;
+}
+
+
+/* review */
+.review_inform{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.review_viewport{
+
+}
+
+/* promotion */
+
+
+
+
+
+
+/* community */
+.community{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.inform_item{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/* Question */
+.button_question{
+    font-family: 'NanumSquare', sans-serif;
+    font-weight: bolder;
+}

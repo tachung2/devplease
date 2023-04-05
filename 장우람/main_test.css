@@ -1,0 +1,191 @@
+/* * {
+  margin: 0;
+  padding: 0;
+} */
+.su_kyung_ko_container {
+  width: 100%;
+  height: 330px;
+  display: flex;
+}
+
+.su_container {
+  background-color: darkred;
+  display: block;
+  float: left;
+  flex: 1;
+  height: 100%;
+  text-align: left;
+  overflow: hidden;
+}
+.ko_container {
+  background-color: lightblue;
+  display: block;
+  float: left;
+  flex: 1;
+  height: 100%;
+  text-align: center;
+  overflow: hidden;
+}
+.kyung_container {
+  background-color: mediumseagreen;
+  display: block;
+  float: left;
+  flex: 1;
+  height: 100%;
+  text-align: right;
+  overflow: hidden;
+}
+
+.title_container {
+  height: 20%;
+}
+.blink_01 {
+  height: 26%;
+}
+.blink_02_su {
+  background-color: white;
+  border-left: 5px solid darkred;
+  height: 2%;
+}
+.blink_02_ko {
+  background-color: white;
+  height: 2%;
+}
+.blink_02_ky {
+  background-color: white;
+  border-right: 5px solid mediumseagreen;
+  height: 2%;
+}
+.lane_su {
+  background-color: darkred;
+  height: 12%;
+  position: relative;
+  text-align: center;
+}
+#sudo_icon {
+  width: 100%;
+  height: 300px;
+  max-width: 300px;
+  min-width: 300px;
+  top: -130px;
+  left: 23%;
+  vertical-align: middle;
+  position: absolute;
+  cursor: pointer;
+}
+.lane_ko {
+  background-color: lightblue;
+  height: 12%;
+  position: relative;
+  text-align: center;
+}
+#ko_icon {
+  width: 100%;
+  height: 300px;
+  max-width: 300px;
+  min-width: 300px;
+  top: -130px;
+  left: 26%;
+  vertical-align: middle;
+  position: absolute;
+  cursor: pointer;
+}
+.lane_kyung {
+  background-color: mediumseagreen;
+  height: 12%;
+  position: relative;
+  text-align: center;
+}
+#kyung_icon {
+  width: 100%;
+  height: 300px;
+  max-width: 300px;
+  min-width: 300px;
+  top: -130px;
+  left: 25%;
+  vertical-align: middle;
+  position: absolute;
+  cursor: pointer;
+}
+.su_kyung_ko_box {
+  transition: flex 0.5s ease-in-out;
+}
+/* .su_kyung_ko_box.active {
+  flex: 4;
+} */
+
+.sudo_text {
+  position: absolute;
+  top: -400%;
+  left: 70%;
+  width: 200px;
+  height: 200px;
+  color: white;
+  text-align: left;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s, opacity 0.5s ease-in-out;
+  cursor: pointer;
+}
+.ko_text {
+  position: absolute;
+  top: -400%;
+  left: 70%;
+  width: 200px;
+  height: 200px;
+  color: white;
+  text-align: left;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s, opacity 0.5s ease-in-out;
+  cursor: pointer;
+}
+.ky_text {
+  position: absolute;
+  top: -400%;
+  left: 10%;
+  width: 200px;
+  height: 200px;
+  color: white;
+  text-align: left;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s, opacity 0.5s ease-in-out;
+  cursor: pointer;
+}
+
+.su_kyung_ko_box:hover {
+  flex: 10;
+}
+.su_kyung_ko_box:hover .sudo_text {
+  visibility: visible;
+  opacity: 1;
+}
+.su_kyung_ko_box:hover .ko_text {
+  visibility: visible;
+  opacity: 1;
+}
+.su_kyung_ko_box:hover .ky_text {
+  visibility: visible;
+  opacity: 1;
+}
+
+.su_kyung_ko_container:hover .title_container,
+.su_kyung_ko_container:hover img {
+  opacity: 0;
+}
+
+.su_kyung_ko_container:hover :hover .title_container,
+.su_kyung_ko_container:hover :hover img {
+  opacity: 1;
+}
+
+.su_kyung_ko_container:hover :hover #sudo_icon {
+  left: 10%;
+}
+.su_kyung_ko_container:hover :hover #ko_icon {
+  left: 41%;
+}
+.su_kyung_ko_container:hover :hover #kyung_icon {
+  left: 73%;
+}

@@ -1,0 +1,124 @@
+header {
+  background-color: darkgray;
+  height: 300px;
+  margin: 10px;
+}
+
+main {
+  background-color: lightsteelblue;
+  height: auto;
+  width: 70%;
+  margin: auto;
+  padding: 20px;
+}
+
+footer {
+  background-color: darkgray;
+  height: 200px;
+  margin: 10px;
+}
+
+#sudogwon_image {
+  margin: auto;
+  width: 100%;
+}
+#lane_sudogwon_1-2days {
+  background-color: white;
+  border: 3px solid gray;
+  height: auto;
+  width: 100%;
+  display: block;
+  margin: 20px auto;
+}
+
+#blue_font {
+  margin-left: 10px;
+  color: skyblue;
+}
+#green_font {
+  margin: auto;
+  color: green;
+}
+#white_font {
+  color: white;
+}
+.inquiry {
+  font-size: 13px;
+  margin: auto;
+  text-align: center;
+}
+
+#lane {
+  margin-left: 10px;
+  width: 80%;
+}
+
+#reserve_space {
+  display: block;
+  float: right;
+  top: 0;
+  height: 100%;
+  width: auto;
+}
+
+.lane_sudogwon_01_btn {
+  background-color: skyblue;
+  border: 0px;
+  border-radius: 5px;
+  font-size: 15px;
+  margin: 40px 30px;
+  padding: 1px 40px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.sudogwon_1-2days_inside_container {
+  border: 3px solid skyblue;
+  height: auto;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  padding: 5px;
+}
+
+/* --------menubar--------- */
+
+.menu_container {
+  display: flex;
+  position: sticky;
+  flex-direction: column;
+  margin: 0 60px auto;
+  height: 200px;
+}
+
+.logo_container {
+  display: flex;
+}
+
+.logo_container > img {
+}
+
+.menubar_container {
+}
+
+.user_container {
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  float: left;
+}
+
+.option {
+  margin: 0 10px auto;
+}
+
+input {
+  height: 25px;
+  border-radius: 20px;
+}

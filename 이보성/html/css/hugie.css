@@ -1,0 +1,145 @@
+
+
+.theme_tour{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #ebedf3;
+    padding: 70px 0;
+    font-size: 16px;
+    color: #363636;
+    font-weight: 400;
+    line-height: 1.4;
+    display: block;
+}
+
+.hugie{
+    display: block;
+    clear: both;
+}
+
+.hugie_Gulza{
+    position: relative;
+    width: 1180px;
+    margin: 0 auto;
+    text-align: left;
+    display: block;
+}
+
+.hugie_Gulza h4{
+    margin-bottom: 20px;
+    font-size: 28px;
+    line-height: 32px;
+    font-weight: 700;
+    color: black;
+    word-break: break-all;
+}
+
+.hugie_slider{
+    position: relative;
+
+}
+.owl-integrated{
+    
+    width: 100%;
+    z-index: 1;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.owl-outer{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+.owl-nav{
+    position: absolute;
+    right: 0;
+    top: -66px;
+    margin: 10px;
+    text-align: center;
+
+}
+.owl-dots{
+    text-align: center;
+    counter-reset: slides-num;
+    position: absolute;
+    top: -70px;
+    right: 100px;
+    z-index: 9;
+}
+.owl-outer-stage{
+    position: relative;
+    touch-action: manipulation;
+    overflow: hidden;
+}
+
+.owl-outer-stage-item{
+    position: relative;
+    width: 1280px;
+    overflow: hidden;
+}
+.item-img{
+    height: 250px;
+    overflow: hidden;
+    position: relative;
+
+}
+.item-info{
+    padding: 25px 28px;
+    background-color: wheat;
+
+}
+.insert_border{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 2px solid blue;
+    z-index: 10;
+}
+
+.item-img img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    border: 0;
+    vertical-align: middle;
+}
+.item-box-tit{
+    color: black;
+    font-size: 24px;
+    line-height: 28px;
+    margin: 0;
+    padding: 0;
+}
+.item-box-sub-tit{
+    font-size: 18px;
+    color: black;
+}
+.insert_border{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 2px solid skyblue;
+    z-index: 10;
+}
+
+.item-box{
+    width: 380px;
+    margin-right: 20px;
+    min-height: 1px;
+    float: left;
+    position: relative;
+}
+
+
+
+
+
