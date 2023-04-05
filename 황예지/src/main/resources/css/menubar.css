@@ -1,0 +1,116 @@
+.menu_container {
+    display: flex;
+    position: sticky;
+    flex-direction: column;
+    margin: 0 60px auto;
+    height: 200px;
+}
+
+.logo_container {
+    display: flex;
+}
+
+.logo_container>img {
+    height: 60px;
+    margin-top: 10px;
+}
+
+.user_container {
+    margin-left: auto;
+}
+
+.user_container .option {
+    margin-top: 4px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.search ul {
+    list-style: none;
+}
+
+.login ul {
+    list-style: none;
+}
+
+.menubar_container ul {
+    list-style: none;
+}
+
+.search li {
+    float: left;
+}
+
+.login li {
+    float: left;
+}
+
+.menubar_container li {
+    float: left;
+}
+
+.search-container {
+    position: relative;
+    border-radius: 20px;
+    width: 180px;
+    height: 26px;
+}
+
+.search-container input {
+    padding-left: 20px;
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+    font-size: 12px;
+    padding: auto;
+}
+
+.search-container button {
+    position: absolute;
+    right: -20px;
+    top: 5.5px;
+    border: none;
+    background-color: transparent;
+}
+
+.login {
+    margin-top: 60px;
+    margin-left: 150px;
+}
+
+.btn_block {
+    width: 70px;
+    height: 33px;
+    border-radius: 20px;
+    margin: 0 5px;
+}
+
+.btn_block button {
+    width: 100%;
+    height: 100%;
+    font-size: 12px;
+    border-radius: 20px;
+    background-color: transparent;
+}
+
+.menubar_container {
+    margin-top: 20px;
+}
+
+.menubar_container ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menubar_container ul li {
+    cursor: pointer;
+}
+
+.local {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+hr {
+    margin-top: -30px;
+}

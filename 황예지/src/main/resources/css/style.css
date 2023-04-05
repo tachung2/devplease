@@ -1,0 +1,51 @@
+.slider {
+    width: 100%;
+    height: 500px;
+    margin: 0 auto;
+}
+
+.slider img {
+    width: 100%;
+    height: 500px;
+    display: block;
+    margin: 0 auto;
+}
+
+.rec_container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+}
+
+.rec_banner {
+    justify-content: center;
+    list-style: none;
+    display: flex;
+}
+
+.box_block {
+    float: left;
+    width: 300px;
+    height: 400px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+.box_block img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    z-index: 0;
+}
+
+.box_cover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0));
+    z-index: 1;
+}
