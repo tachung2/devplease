@@ -1,13 +1,80 @@
+/* fonts */
+
+@font-face {
+    font-family: 'Spoqa Han Sans Neo';
+    font-weight: 700;
+    src: local('Spoqa Han Sans'),
+    url('../../fonts/SpoqaHanSansNeo_TTF_subset/SpoqaHanSansNeo-Bold.woff2')format('woff2'),
+    url('../../fonts/SpoqaHanSansNeo_TTF_subset/SpoqaHanSansNeo-Bold.woff')format('woff'),
+    url(../../fonts/SpoqaHanSansNeo_TTF_subset/SpoqaHanSansNeo-Bold.ttf)format('truetype');
+}
+
+@font-face {
+    font-family: 'Spoqa Han Sans Neo';
+    src: local('Spoqa Han Sans'),
+    url(../../fonts/SpoqaHanSansNeo_TTF_subset/SpoqaHanSansNeo-Regular.woff2)format('woff2'),
+    url(../../fonts/SpoqaHanSansNeo_TTF_subset/SpoqaHanSansNeo-Regular.woff)format('woff'),
+    url(../../fonts/SpoqaHanSansNeo_TTF_subset/SpoqaHanSansNeo-Regular.ttf)format('truetype');
+}
+
+@font-face {
+    font-family: 'NanumSquare';
+    src: local('NanumSquare'),
+    url(../../fonts/NanumSquare/NanumSquareAcEB.woff2)format('woff2'),
+    url(../../fonts/NanumSquare/NanumSquareAcEB.woff)format('woff'),
+    url(../../fonts/NanumSquare/NanumSquareAcEB.ttf)format('truetype');
+}
+
+@font-face {
+    font-family: 'NanumSquare';
+    src: local('NanumSquare'),
+    url(../../fonts/NanumSquare/NanumSquareAcB.woff2)format('woff2'),
+    url(../../fonts/NanumSquare/NanumSquareAcB.woff)format('woff'),
+    url(../../fonts/NanumSquare/NanumSquareAcB.ttf)format('truetype');
+}
+
+@font-face {
+    font-family: 'NanumSquare';
+    src: local('NanumSquare'),
+    url(../../fonts/NanumSquare/NanumSquareAcR.woff2)format('woff2'),
+    url(../../fonts/NanumSquare/NanumSquareAcR.woff)format('woff'),
+    url(../../fonts/NanumSquare/NanumSquareAcR.ttf)format('truetype');
+}
+
+
+/* style */
+body{
+    font-family: "Spoca Han Sans Neo", 'sans-serif';
+}
+
+.notice-section{
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+h1{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 50px;
+    font-family: "NanumSquare";
+
+}
+
+
 table {
     border-collapse: collapse;
     border-spacing: 0;
     width: 100%;
-    border: 1px solid #ddd;
 }
   
 th, td {
-    text-align: left;
+    text-align: center;
     padding: 8px;
 }
   
 tr:nth-child(even){background-color: #f2f2f2}
+
+.notice-list-title{
+    text-align: left;
+}
