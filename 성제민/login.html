@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="..\css\menubar.css">
+    <link rel="stylesheet" href="..\css\login.css">
+</head>
+
+<body>
+    <header>
+        <style>
+            a {
+                text-decoration: none;
+                color: inherit;
+            }
+        </style>
+        <div class="menu_container">
+            <div class="logo_container">
+                <a href="http://html11.abada.co.kr/"><img src="./images/logo.png" alt="logo"></a>
+                <div class="user_container">
+                    <div class="search">
+                        <ul>
+                            <li class="option">
+                                <a href="#">한국어</a>
+                            </li>
+                            <li class="option">
+                                <a href="#">고객센터</a>
+                            </li>
+                            <li class="option">
+                                <a href="#">Q&A</a>
+                            </li>
+                            <li class="search_option">
+                                <div class="search-container">
+                                    <input type="text" placeholder="검색어를 입력하세요" name="search">
+                                    <button type="submit"><i class="fa fa-search"></i></button>
+                                </div>
+                            </li>
+                        </ul>
+
+
+
+                    </div>
+                </div>
+            </div>
+            <div class="menubar_container">
+                <ul>
+                    <li class="local">
+                        <a href="http://html11.abada.co.kr/sub/chooseCity_page">고창/부안</a>
+                    </li>
+                    <li class="local">
+                        <a href="http://html11.abada.co.kr/sub/chooseCity_page_2">장수/남원</a>
+                    </li>
+                    <li class="local">
+                        <a href="http://html11.abada.co.kr/sub/chooseCity_page_3">익산/완주</a>
+                    </li>
+                    <li class="local">
+                        <a href="http://html11.abada.co.kr/sub/chooseCity_page_4">정읍/김제</a>
+                    </li>
+                    <li class="local">
+                        <a href="http://html11.abada.co.kr/sub/chooseCity_page_5">임실/순창</a>
+                    </li>
+                    <li class="local">
+                        <a href="http://html11.abada.co.kr/sub/chooseCity_page_6">무주/임실/진안</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+    </header>
+
+    <main class="main_container">
+        <div class="login_container">
+            <h1 class="login_title">로그인</h1>
+            <input id="email" type="email" placeholder="이메일 주소">
+            <input id="pw" type="password" placeholder="비밀번호">
+            <button type="submit" class="login_btn">로그인</button>
+            <div class="sub_container">
+                <p><a href="#">아이디/비밀번호 찾기</a></p>
+                <p> | </p>
+                <p><a href="#">비회원 예약 조회</a></p>
+            </div>
+            <h1>간편 로그인</h1>
+            <button type="submit" class="sns_btn">SNS</button>
+            <button type="submit" class="sign_btn">회원가입</button>
+        </div>
+    </main>
+
+</body>
+
+</html>

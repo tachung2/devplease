@@ -1,0 +1,221 @@
+.main_container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.signup_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 1000px;
+    height: 150vh;
+}
+
+.email_container {
+    display: flex;
+    direction: row;
+    align-items: center;
+}
+
+input[type=email] {
+    width: 350px;
+    height: 50px;
+    margin-left: 20px;
+    font-size: 18px;
+    padding: 0 30px;
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+
+span {
+    margin: 0 25px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+p {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: left;
+    margin-right: auto;
+}
+
+#domain {
+    width: 270px;
+    height: 50px;
+    font-size: 18px;
+    padding: 0 30px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    appearance: none;
+    background-image: url('image/Vector.png');
+    background-position: right 10px center;
+    background-repeat: no-repeat;
+}
+
+.email_btn {
+    margin-left: 20px;
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    background: rgba(217, 217, 217, 0.46);
+    color: rgb(146, 146, 146);
+    font-size: 18px;
+    font-weight: bold;
+}
+
+input[type=password] {
+    width: 90%;
+    height: 50px;
+    font-size: 18px;
+    padding: 0 30px;
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+
+.inform_container {
+    display: flex;
+    position: relative;
+    width: 100%;
+}
+
+.name_box {
+    width: 50%;
+}
+
+.birth_box {
+    width: 50%;
+}
+
+.name_box input[type=text],
+.birth_box input[type=text] {
+    margin-left: 20px;
+    width: 400px;
+    height: 50px;
+    font-size: 18px;
+    padding: 0 30px;
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+
+.signup_container input[type=text] {
+    width: 90%;
+    height: 50px;
+    font-size: 18px;
+    padding: 0 30px;
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+
+.gender {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.gender button {
+    background-color: white;
+    color: black;
+    width: 48%;
+    height: 70px;
+    border: 1px solid gray;
+    cursor: pointer;
+}
+
+.gender button:active {
+    background-color: rgb(217, 217, 217);
+    color: black;
+}
+
+.gender .blue {
+    background-color: rgb(76, 107, 219);
+    color: white;
+}
+
+.gender .blue:active {
+    background-color: rgb(37, 80, 232);
+    color: white;
+}
+
+.use_agree_container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: flex-start;
+    margin-top: 30px;
+}
+
+.use_agree_container label {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.use_agree_container a {
+    margin-left: auto;
+}
+
+input[type=checkbox] {
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+    border-radius: 50%;
+    cursor: pointer;
+    outline: none;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+input[type=checkbox]:checked::before {
+    content: "";
+    display: block;
+    width: 12px;
+    height: 12px;
+    margin: 3.1px;
+    background: rgb(37, 80, 232);
+    border-radius: 50%;
+}
+
+.inform_agree_container {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: flex-start;
+}
+
+.inform_agree_container label {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.inform_agree_container a {
+    margin-left: auto;
+}
+
+.link {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.link .signup_btn {
+    margin-top: 100px;
+    width: 70%;
+    height: 65px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(76, 107, 219);
+    cursor: pointer;
+}
+
+.signup_container a .signup_btn:active {
+    background-color: rgb(37, 80, 232);
+}

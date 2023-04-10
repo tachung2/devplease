@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href=".\menubar.css">
+    <link rel="stylesheet" href=".\signup.css">
+</head>
+
+<body>
+    <header>
+        <style>
+            a {
+                text-decoration: none;
+                color: inherit;
+            }
+        </style>
+        <div class="menu_container">
+            <div class="logo_container">
+                <a href="#"><img src="./images/logo.png" alt="logo"></a>
+                <div class="user_container">
+                    <div class="search">
+                        <ul>
+                            <li class="option">
+                                <a href="#">한국어</a>
+                            </li>
+                            <li class="option">
+                                <a href="#">고객센터</a>
+                            </li>
+                            <li class="option">
+                                <a href="#">Q&A</a>
+                            </li>
+                            <li class="search_option">
+                                <div class="search-container">
+                                    <input type="text" placeholder="검색어를 입력하세요" name="search">
+                                    <button type="submit"><i class="fa fa-search"></i></button>
+                                </div>
+                            </li>
+                        </ul>
+
+
+
+                    </div>
+                    <div class="login">
+                        <ul>
+                            <li class="btn_block">
+                                <button class="login_btn">로그인</button>
+                            </li>
+                            <li class="btn_block">
+                                <button class="signin_btn">회원가입</button>
+                            </li>
+                            <li class="btn_block">
+                                <button class="reserve_btn">예약확인</button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="menubar_container">
+                <ul>
+                    <li class="local">
+                        <a href="#">고창/부안</a>
+                    </li>
+                    <li class="local">
+                        <a href="#">장수/남원</a>
+                    </li>
+                    <li class="local">
+                        <a href="#">익산/완주</a>
+                    </li>
+                    <li class="local">
+                        <a href="#">정읍/김제</a>
+                    </li>
+                    <li class="local">
+                        <a href="#">임실/순창</a>
+                    </li>
+                    <li class="local">
+                        <a href="#">무주/임실/진안</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+    </header>
+
+
+    <main class="main_container">
+        <div class="signup_container">
+            <h1>회원가입</h1>
+            <p>아이디</p>
+            <div class="email_container">
+                <input type="email" placeholder="이메일을 입력해주세요">
+                <span>@</span>
+                <select id="domain" name="domain">
+                    <option value="naver.com">naver.com</option>
+                    <option value="gmail.com">gmail.com</option>
+                    <option value="daum.net">daum.net</option>
+                </select>
+                <button class="email_btn">인증번호 발송</button>
+            </div>
+            <p>비밀번호</p>
+            <input type="password" placeholder="영문자(대문자포함), 숫자, 특수문자 조합 8자 이상">
+            <p>비밀번호 확인</p>
+            <input type="password" placeholder="영문자(대문자포함), 숫자, 특수문자 조합 8자 이상">
+            <div class="inform_container">
+                <div class="name_box">
+                    <p>성명</p>
+                    <input type="text" placeholder="이름을 입력해주세요">
+                </div>
+                <div class="birth_box">
+                    <p>생년월일</p>
+                    <input type="text" placeholder="6자리 숫자 형태로 입력해주세요">
+                </div>
+            </div>
+            <p>휴대폰 번호</p>
+            <input type="text" id="number" placeholder="'-'없이 숫자만 입력">
+            <p>성별</p>
+            <div class="gender">
+                <button id="male" onclick="changeColor('male')">남자</button>
+                <button id="female" onclick="changeColor('female')">여자</button>
+            </div>
+            <script>
+                function changeColor(gender) {
+                    var maleBtn = document.getElementById("male");
+                    var femaleBtn = document.getElementById("female");
+
+                    if (gender === "male") {
+                        if (!maleBtn.classList.contains("blue")) {
+                            maleBtn.classList.add("blue");
+                            femaleBtn.classList.remove("blue");
+                        } else {
+                            maleBtn.classList.remove("blue");
+                        }
+                    } else if (gender === "female") {
+                        if (!femaleBtn.classList.contains("blue")) {
+                            femaleBtn.classList.add("blue");
+                            maleBtn.classList.remove("blue");
+                        } else {
+                            femaleBtn.classList.remove("blue");
+                        }
+                    }
+                }
+            </script>
+            <div class="use_agree_container">
+                <input type="checkbox" name="agreement" value="agree">
+                <label for="terms1">(필수)이용약관동의</label>
+                <a href="#">보기</a>
+            </div>
+            <div class="inform_agree_container">
+                <input type="checkbox" name="agreement" value="agree">
+                <label for="terms2">(필수)개인정보 수집 및 이용동의</label>
+                <a href="#">보기</a>
+            </div>
+            <a class="link" href="#"><button class="signup_btn">회원가입</button></a>
+        </div>
+    </main>
+</body>
+
+</html>
